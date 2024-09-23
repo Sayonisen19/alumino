@@ -1,0 +1,80 @@
+/* Signin.css */
+
+.signin-container {
+    max-width: 450px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #f7f9fb;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    font-family: 'Arial', sans-serif;
+}
+
+.signin-container h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.signin-input {
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.signin-input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+}
+
+.signin-button {
+    padding: 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.signin-button:hover {
+    background-color: #2980b9;
+}
+
+.signin-button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(41, 128, 185, 0.5);
+}
+
+/* Laptop screen adjustments */
+@media screen and (min-width: 1024px) {
+    .signin-container {
+        max-width: 500px;
+        padding: 50px;
+    }
+
+    .signin-input, 
+    .signin-button {
+        font-size: 20px;
+        padding: 18px;
+    }
+
+    .signin-button {
+        padding: 18px 28px;
+    }
+}

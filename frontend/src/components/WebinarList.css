@@ -1,0 +1,45 @@
+/* src/components/WebinarList.css */
+
+.webinar-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.webinar-header {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.webinar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.webinar-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.webinar-title {
+    font-weight: bold;
+    color: #555;
+}
+
+.webinar-date {
+    color: #888;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}

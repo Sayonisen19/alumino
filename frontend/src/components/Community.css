@@ -1,0 +1,60 @@
+/* Community.css */
+.community-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #f0f2f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.community-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.community-list {
+    list-style: none;
+    padding: 0;
+}
+
+.community-item {
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    font-size: 18px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.community-item:hover {
+    background-color: #e9f5ff;
+    transform: translateY(-2px);
+}
+
+.join-button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+    background-color: #0056b3;
+}
+
+.join-button:active {
+    background-color: #004085;
+}

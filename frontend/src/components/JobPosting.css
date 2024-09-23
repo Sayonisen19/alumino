@@ -1,0 +1,89 @@
+/* JobPosting.css */
+
+.job-posting-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f5f7fa;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.job-posting-container h1 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.job-posting-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.job-posting-input, 
+.job-posting-textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.job-posting-textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.job-posting-input:focus, 
+.job-posting-textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+.job-posting-submit {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.job-posting-submit:hover {
+    background-color: #0056b3;
+}
+
+/* Laptop screen adjustments */
+@media screen and (min-width: 1024px) {
+    .job-posting-container {
+        max-width: 900px;
+        padding: 40px;
+    }
+
+    .job-posting-form {
+        gap: 25px;
+    }
+
+    .job-posting-input, 
+    .job-posting-textarea {
+        padding: 14px;
+        font-size: 18px;
+    }
+
+    .job-posting-submit {
+        font-size: 18px;
+        padding: 14px 24px;
+    }
+}
